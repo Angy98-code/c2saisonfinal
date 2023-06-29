@@ -1,0 +1,211 @@
+/** @format */
+
+body {
+  margin: 0;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* the navbar in header */
+
+.navcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 30px;
+  align-items: baseline;
+  /* background-image: url("/public/arbre.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: hue;
+  
+  background-position-y: 10%; */
+  background-color: rgba(234, 223, 208, 0.7);
+}
+/* background-color : rgb(234, 223, 208) */
+
+.navtitle {
+  width: 20%;
+  color: rgb(79, 145, 88);
+  font-size: 40px;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.navseasons {
+  width: 50%;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  color: rgb(207, 46, 46);
+  text-decoration: none;
+}
+
+.printemps:hover {
+  color: rgb(120, 148, 75);
+}
+
+/* .printemps:active {
+color: black !important;
+}*/ 
+ .ete:focus,.ete:hover {
+  color: rgb(252, 54, 225);
+  /* color: rgb(207, 42, 186);  */
+ }
+.automne:hover {
+  color: rgba(252, 185, 0, 1);
+}
+.hiver:hover {
+  color: rgb(40, 116, 252);
+}
+
+.printempscontainer {
+  background-image: url("/public/fleur2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: hue;
+
+  background-position-y: 1%;
+}
+
+/* .printempscontainer::before {
+  /* min-height: 100vh; */
+/* background-color: rgb(238, 252, 238); */
+/* position: absolute;
+  content: "";
+  background-image: url("/public/arbre.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+/* top: 200px;
+ bottom: 150px;
+ left: 0;
+ right: 0; 
+ 
+}  */
+
+.etecontainer {
+  /* min-height: 100vh; */
+  /* background-color:  rgb(252, 247, 247); */
+  /* background-color: rgb(238, 252, 238);  */
+  background-image: url("/public/lavender.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: hue;
+
+  background-position-y: 1%;
+}
+
+.automnecontainer {
+  /* min-height: 100vh; 
+   position: relative;
+  /* background-color: rgb(250, 247, 236); */
+  /* background-color: rgb(238, 252, 238);  */
+  background-image: url("/public/heart.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: hue;
+
+  background-position-y: 10%;
+}
+
+.hivercontainer {
+  /* min-height: 100vh;
+   background-color: rgb(235, 251, 254);  */
+
+  background-image: url("/public/neige2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: hue;
+
+  background-position-y: 40%;
+}
+
+/*page error */
+/* .pageerror {
+/* background-image : url("/public/flamme.jpg");
+background-repeat: no-repeat;
+z-index: 1;
+object-fit: contain; */
+
+/* img {
+  object-fit: fill;
+  position: absolute;
+  width: 120vw;
+  height: 110vh;
+  color: white;
+  z-index: -1;
+} */
+/* footer  {
+ background-color : rgba(234, 223, 208, 0.5);
+  /* background-image: url("/public/arbre.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  background-position-y: 22%; */
+/* background-image: url("/public/arbre.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: hue;
+  
+  background-position-y: 10%; 
+  height : 150px;
+width : 100vw;
+
+} */
+.cartimages {
+  border-radius: 5px;
+}
+
+.descriptioncontainer {
+  margin: 40px;
+  line-height: 30px;
+  text-align: left;
+  text-indent: 50px;
+}
+.descriptioncontainer1 {
+  margin: 40px;
+  line-height: 30px;
+  text-align: left;
+  text-indent: 50px;
+}
+.descriptioncontainer2 {
+  margin: 40px;
+  line-height: 30px;
+  text-align: left;
+  text-indent: 50px;
+}
+
+.homecontainer {
+ background-image: url("/public/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: hue;
+  background-position-y: 40%;
+}
+.homedescription {
+ background-color: rgba(234, 223, 208, 0.5);
+  border-radius: 10px;
+  padding : 15px;
+  margin :20px;
+
+}
+
+.imageerror {
+  background-image: url("/public/coeur.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: hue;
+position: absolute;
+  background-position-y: 10%;
+
+}
